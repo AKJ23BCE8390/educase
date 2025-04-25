@@ -1,0 +1,67 @@
+.account-settings {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f8f8;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .profile-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .profile-picture {
+    position: relative;
+    width: 60px;
+    height: 60px;
+  }
+  
+  .avatar {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .camera-icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 2px 5px;
+    font-size: 14px;
+    color: purple;
+  }
+  
+  .user-info h3 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .user-info p {
+    margin: 2px 0 0;
+    color: #555;
+    font-size: 14px;
+  }
+  
+  .bio {
+    font-size: 13px;
+    color: #444;
+    line-height: 1.5;
+    border-top: 1px dashed #ccc;
+    padding-top: 10px;
+  }
+  
